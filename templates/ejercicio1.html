@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculo de Compras</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2 class="titulo-ej1">Calculo de Compras</h2>
+    <form method="post" class="form-ej1">
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required><br><br>
+
+        <label>Edad:</label>
+        <input type="number" name="edad" required><br><br>
+
+        <label>Cantidad de tarros:</label>
+        <input type="number" name="cantidad" required><br><br>
+
+        <button type="submit">Calcular</button>
+    </form>
+</body>
+</html>
